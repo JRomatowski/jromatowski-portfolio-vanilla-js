@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+}
+
+
+.flute {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+#middle-key {
+    font-size: 200px;
+    text-align: center;
+    border-left: thick solid black;
+}
+
+.keys {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border:10px solid red;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px
+}
+
+
