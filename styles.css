@@ -50,11 +50,16 @@ h1 {
     display: none;
     text-align: center;
     width: 80%;
+    max-height: 300px;
+    max-width: 400px;
 }
 
 #bio-paragraph {
-    padding: 0px;
-    margin: 0px;
+    /* padding: 0px;
+    margin: 0px; */
+    max-height: 300px;
+    max-width: 400px;
+    text-align: center;
     /* width: 75%; */
 }
 

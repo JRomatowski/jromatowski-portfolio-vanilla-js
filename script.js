@@ -44,20 +44,21 @@ const resumePage = document.querySelector('.resume-page')
 const iPage = document.querySelector('.i-page')
 const usPage = document.querySelector('.us-page')
 
+//  LEFTOVER IDEA - AFRAID TO DELETE YET
 const explainPortfolio = document.querySelector('#explain-portfolio')
 const explainResume = document.querySelector('#explain-resume')
 const explainI = document.querySelector('#explain-i')
 const explainUs = document.querySelector('#explain-us')
 const explainCat = document.querySelector('#explain-cat')
 
-// BUTTON TESTS
+// CONSOLE.LOGS
 
+// console.log(contactForm);
 // console.log(key1)
 // console.log(key2)
 // console.log(key3)
 // console.log(key4)
 // console.log(key5)
-
 // console.log(homeKey)
 // console.log(bottomHomeKeyOne)
 // console.log(mainPage)
@@ -65,10 +66,22 @@ const explainCat = document.querySelector('#explain-cat')
 // console.log(resumePage)
 // console.log(iPage)
 // console.log(usPage)
-console.log(explainPortfolio)
-console.log(explainResume)
-console.log(explainI)
-console.log(explainUs)
+// console.log(explainPortfolio)
+// console.log(explainResume)
+// console.log(explainI)
+// console.log(explainUs)
+
+// FORM
+
+const btn = document.getElementById('btn');
+const form = document.getElementById('form');
+
+btn.addEventListener('click', function handleClick(event) {
+    event.preventDefault();
+    form.reset();
+  });
+
+
 
 // BUTTON EVENT LISTENERS
 

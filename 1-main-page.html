@@ -59,7 +59,7 @@
             </div>
             <!-- <h2>Bio Here!</h2> -->
             <p id="bio-paragraph">
-            ​Hi!  My name is Josh and I am a flutist turned software engineer residing in Seattle!   When I'm not staring at my flute case or trying to crack the perfect grind setting on my Baratza Encore Burr Coffee Grinder, I am instead cultivating a very lustrious, tantalizing, sensuous, temptuous relationship with CSS!  I currently perform on piccolo with Symphony Tacoma and am teaching flute lessons to students of all ages.<br>
+            ​Hi!  My name is Josh and I am a flutist turned software engineer residing in Seattle!   When I'm not staring at my flute case or trying to crack the perfect grind setting on my Baratza Encore Burr Coffee Grinder, I am instead cultivating a very lustrious, tantalizing, sensuous, temptuous relationship with CSS!  I currently perform with Symphony Tacoma and am teaching flute lessons to students of all ages.<br>
             <br>        
             P.S. The perfect grind setting is 20.
         
@@ -68,13 +68,42 @@
         </div>
         <div class="us-page">
             <h2>Social Media Here!</h2>
+            <!-- <form onsubmit="sendEmail(); reset(); return false;"> -->
+            <form id="form">
+                <h3>GET IN TOUCH</h3>
+                <br><br>
+                <input type="text" placeholder="Name" id="name" />
+                <br><br>
+                <input type="email" placeholder="Email" id="email" />
+                <br><br>
+                <textarea placeholder="Enter a message!" rows="4" id="user-message"></textarea>
+                <br><br>
+                <button id="btn" type="button">Submit</button>
+            </form>
             <p>Filler Text</p>
             <p id="return-home4" style="cursor: default">return</p>
         </div>
     </main>
 
 
-    
+    <!-- <scrip src="https://smtpjs.com/v3/smtp.js"></scrip>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : "joshuaromatowski@gmail.com",
+                Password : "password",
+                To : 'joshuaromatowski@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "New Contact Form Submission",
+                Body : "Name: " + document.getElementById('name').value
+                    + "<br> Email: " + document.getElementById('email').value
+                    + "<br> Message: " + document.getElementById('message').value
+            }).then(
+                message => alert("Message Sent")
+);
+        }
+    </script> -->
 </body>
 <!-- <footer>
     <p>Social Media Links</p>
