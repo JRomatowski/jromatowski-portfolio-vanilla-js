@@ -24,18 +24,22 @@ h1 {
 
 .portfolio-page {
     display: none;
+    text-align: center;
 }
 
 .resume-page {
     display: none;
+    text-align: center;
 }
 
 .i-page {
     display: none;
+    text-align: center;
 }
 
 .us-page {
     display: none;
+    text-align: center;
 }
 
 

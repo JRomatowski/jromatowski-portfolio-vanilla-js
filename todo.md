@@ -25,12 +25,10 @@ BRONZE
 
 SILVER 
 CSS - Buttons light up when hovered, respond somehow when clicked
-CSS? - Figure out curves and circles in the design
+DONE CSS? - Figure out curves and circles in the design
 CSS - enhance colors away from default presets.
 CSS - Give serious time to font selection, outside of default
-CSS/HTML - Do flute graphics with HTML or import graphics?
 figure out animations for when you click page links (if I do this)
-JS - Click a button on a flute, get a sound and/or recording.
 
 GOLD
 Create a complex user interface module (e.g. a carousel, modal, sticky nav, etc)
