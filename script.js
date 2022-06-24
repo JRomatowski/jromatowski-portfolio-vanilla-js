@@ -26,6 +26,12 @@ const key3 = document.querySelector('#key3')
 const key4 = document.querySelector('#key4')
 const key5 = document.querySelector('#key5')
 
+const phone1 = document.querySelector('#phone-portfolio')
+const phone2 = document.querySelector('#phone-resume')
+const phone3 = document.querySelector('#phone-info')
+const phone4 = document.querySelector('#phone-us')
+const phone5 = document.querySelector('#phone-cat')
+
 const homeKey = document.querySelector('#title')
 const bottomHomeKeyOne = document.querySelector('#return-home1')
 const bottomHomeKeyTwo = document.querySelector('#return-home2')
@@ -153,11 +159,53 @@ key5.addEventListener('click', () => {
     window.open('https://www.google.com/search?q=cat&sxsrf=ALiCzsZrnpDQODBiu-y5uAONjny3YMItmA:1656038727296&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiymsyAicX4AhUrDEQIHQq8A2oQ_AUoAXoECAIQAw&biw=965&bih=802&dpr=2', '_blank');
 })
 
+phone1.addEventListener('click', () => {
+    console.log("key1 works")
+    mainPage.style.display = "none";
+    portfolioPage.style.display = "block";
+    resumePage.style.display = "none";
+    iPage.style.display = "none";
+    usPage.style.display = "none";
+})
+
+phone2.addEventListener('click', () => {
+    console.log("key2 works")
+    mainPage.style.display = "none";
+    portfolioPage.style.display = "none";
+    resumePage.style.display = "block";
+    iPage.style.display = "none";
+    usPage.style.display = "none";
+})
+
+phone3.addEventListener('click', () => {
+    console.log("key3 works")
+    mainPage.style.display = "none";
+    portfolioPage.style.display = "none";
+    resumePage.style.display = "none";
+    iPage.style.display = "block";
+    usPage.style.display = "none";
+})
+
+phone4.addEventListener('click', () => {
+    console.log("key4 works")
+    mainPage.style.display = "none";
+    portfolioPage.style.display = "none";
+    resumePage.style.display = "none";
+    iPage.style.display = "none";
+    usPage.style.display = "block";
+})
+
+phone5.addEventListener('click', () => {
+    console.log("key5 works")
+    // Opens link to google search for "cat"
+    window.open('https://www.google.com/search?q=cat&sxsrf=ALiCzsZrnpDQODBiu-y5uAONjny3YMItmA:1656038727296&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiymsyAicX4AhUrDEQIHQq8A2oQ_AUoAXoECAIQAw&biw=965&bih=802&dpr=2', '_blank');
+})
+
 // MOUSEOVER EVENT LISTENERS
 
 key1.addEventListener("mouseover", function( event ) {
     event.target.style.borderColor = "#8000ff";
-    explainPortfolio.style.display = "block";
+    // explainPortfolio.style.display = "block";
 })
 
 key1.addEventListener('mouseleave', function(event) {
@@ -167,7 +215,7 @@ key1.addEventListener('mouseleave', function(event) {
 
 key2.addEventListener("mouseover", function( event ) {
     event.target.style.borderColor = "#8000ff";
-    explainResume.style.display = "block";
+    // explainResume.style.display = "block";
 })
 
 key2.addEventListener('mouseleave', function(event) {
@@ -177,7 +225,7 @@ key2.addEventListener('mouseleave', function(event) {
 
 key3.addEventListener("mouseover", function( event ) {
     event.target.style.borderColor = "#8000ff";
-    explainI.style.display = "block";
+    // explainI.style.display = "block";
 })
 
 key3.addEventListener('mouseleave', function(event) {
@@ -187,7 +235,7 @@ key3.addEventListener('mouseleave', function(event) {
 
 key4.addEventListener("mouseover", function( event ) {
     event.target.style.borderColor = "#8000ff";
-    explainUs.style.display = "block";
+    // explainUs.style.display = "block";
 })
 
 key4.addEventListener('mouseleave', function(event) {
@@ -197,13 +245,68 @@ key4.addEventListener('mouseleave', function(event) {
 
 key5.addEventListener("mouseover", function( event ) {
     event.target.style.borderColor = "#8000ff";
-    explainCat.style.display = 'block';
+    // explainCat.style.display = 'block';
 })
 
 key5.addEventListener('mouseleave', function(event) {
     event.target.style.borderColor = '';
     explainCat.style.display = "none";
 } )
+
+// NAVIGATION AT BOTTOM
+//
+//
+//
+
+// phone1.addEventListener("mouseover", function( event ) {
+//     event.target.style.Color = "red";
+//     // explainPortfolio.style.display = "block";
+// })
+
+// phone1.addEventListener('mouseleave', function(event) {
+//     event.target.style.Color = '';
+//     explainPortfolio.style.display = "none";
+// } )
+
+// phone2.addEventListener("mouseover", function( event ) {
+//     event.target.style.borderColor = "#8000ff";
+//     // explainResume.style.display = "block";
+// })
+
+// phone2.addEventListener('mouseleave', function(event) {
+//     event.target.style.borderColor = '';
+//     explainResume.style.display = "none";
+// } )
+
+// phone3.addEventListener("mouseover", function( event ) {
+//     event.target.style.borderColor = "#8000ff";
+//     // explainI.style.display = "block";
+// })
+
+// phone3.addEventListener('mouseleave', function(event) {
+//     event.target.style.borderColor = '';
+//     explainI.style.display = "none";
+// } )
+
+// phone4.addEventListener("mouseover", function( event ) {
+//     event.target.style.borderColor = "#8000ff";
+//     // explainUs.style.display = "block";
+// })
+
+// phone4.addEventListener('mouseleave', function(event) {
+//     event.target.style.borderColor = '';
+//     explainUs.style.display = "none";
+// } )
+
+// phone5.addEventListener("mouseover", function( event ) {
+//     event.target.style.borderColor = "#8000ff";
+//     // explainCat.style.display = 'block';
+// })
+
+// phone5.addEventListener('mouseleave', function(event) {
+//     event.target.style.borderColor = '';
+//     explainCat.style.display = "none";
+// } )
 
 
 
@@ -244,7 +347,7 @@ key5.addEventListener('mouseleave', function(event) {
 // EXAMPLE OF TIMEOUT CODE
 // key1.addEventListener("mouseover", function( event ) {
 //     event.target.style.borderColor = "#8000ff";
-//     explainPortfolio.style.display = "block";
+    // explainPortfolio.style.display = "block";
 //     setTimeout(function() {
 //       event.target.style.borderColor = "";
 //       explainPortfolio.style.display = "none";

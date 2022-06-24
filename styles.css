@@ -1,3 +1,9 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 h1 {
     text-align: center;
 }
@@ -48,6 +54,52 @@ h1 {
     text-align: center;
 }
 
+#phone-navigation {
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+    padding-top: 19px;
+    }
+    
+/* @media screen and (max-width: 1024px) {
+    #phone-navigation {
+        display: block;
+    }
+} */
+
+#phone-portfolio {
+    color: black;
+} 
+
+#phone-resume {
+    color: black;
+} 
+
+#phone-info {
+    color: black;
+} 
+
+#phone-us {
+    color: black;
+} 
+
+#phone-cat {
+    color: black;
+} 
+
+#image-container-bio {
+    height: 300px;
+    width: 400px;
+    /* margin: 0 auto; */
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
 #explain-portfolio {
     display: none;
     text-align: center;
@@ -77,13 +129,4 @@ h1 {
     text-align: center;
     color: #8000ff;
 }
-
-/* MAKE THIS PHONE ONLY */
-#phone-navigation {
-    text-align: center;
-    font-weight: bold;
-    font-size: 21px;
-    padding-top: 19px;
-}
-
 
