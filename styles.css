@@ -22,6 +22,12 @@ h1 {
     padding: 10px
 }
 
+.mouse-over-text {
+    color: #8000ff;
+    text-align: center;
+    display: none;
+}
+
 .portfolio-page {
     display: none;
     text-align: center;
@@ -42,5 +48,42 @@ h1 {
     text-align: center;
 }
 
+#explain-portfolio {
+    display: none;
+    text-align: center;
+    color: #8000ff;
+}
+
+#explain-resume {
+    display: none;
+    text-align: center;
+    color: #8000ff;
+}
+
+#explain-i {
+    display: none;
+    text-align: center;
+    color: #8000ff;
+}
+
+#explain-us {
+    display: none;
+    text-align: center;
+    color: #8000ff;
+}
+
+#explain-cat {
+    display: none;
+    text-align: center;
+    color: #8000ff;
+}
+
+/* MAKE THIS PHONE ONLY */
+#phone-navigation {
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+    padding-top: 19px;
+}
 
 

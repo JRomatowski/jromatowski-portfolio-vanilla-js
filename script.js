@@ -38,6 +38,12 @@ const resumePage = document.querySelector('.resume-page')
 const iPage = document.querySelector('.i-page')
 const usPage = document.querySelector('.us-page')
 
+const explainPortfolio = document.querySelector('#explain-portfolio')
+const explainResume = document.querySelector('#explain-resume')
+const explainI = document.querySelector('#explain-i')
+const explainUs = document.querySelector('#explain-us')
+const explainCat = document.querySelector('#explain-cat')
+
 // BUTTON TESTS
 
 // console.log(key1)
@@ -53,14 +59,12 @@ const usPage = document.querySelector('.us-page')
 // console.log(resumePage)
 // console.log(iPage)
 // console.log(usPage)
+console.log(explainPortfolio)
+console.log(explainResume)
+console.log(explainI)
+console.log(explainUs)
 
 // BUTTON EVENT LISTENERS
-
-// Write Blank Out Function
-
-const colorTimeout = function () {
-    
-}
 
 bottomHomeKeyOne.addEventListener('click', () => {
     console.log("homeKey works")
@@ -107,10 +111,6 @@ homeKey.addEventListener('click', () => {
     usPage.style.display = "none";
 })
 
-// homeKey.addEventListener('mouseover', () => {
-//     homeKey.style.textDecoration = 'underline';
-// })
-
 key1.addEventListener('click', () => {
     console.log("key1 works")
     mainPage.style.display = "none";
@@ -153,52 +153,100 @@ key5.addEventListener('click', () => {
     window.open('https://www.google.com/search?q=cat&sxsrf=ALiCzsZrnpDQODBiu-y5uAONjny3YMItmA:1656038727296&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiymsyAicX4AhUrDEQIHQq8A2oQ_AUoAXoECAIQAw&biw=965&bih=802&dpr=2', '_blank');
 })
 
+// MOUSEOVER EVENT LISTENERS
+
 key1.addEventListener("mouseover", function( event ) {
-    
     event.target.style.borderColor = "#8000ff";
-  
-    
-    setTimeout(function() {
-      event.target.style.borderColor = "";
-    }, 300);
-  }, false);
+    explainPortfolio.style.display = "block";
+})
 
-  key2.addEventListener("mouseover", function( event ) {
-    
-    event.target.style.borderColor = "#8000ff";
-  
-    
-    setTimeout(function() {
-      event.target.style.borderColor = "";
-    }, 300);
-  }, false);
+key1.addEventListener('mouseleave', function(event) {
+    event.target.style.borderColor = '';
+    explainPortfolio.style.display = "none";
+} )
 
-  key3.addEventListener("mouseover", function( event ) {
-    
+key2.addEventListener("mouseover", function( event ) {
     event.target.style.borderColor = "#8000ff";
-  
-    
-    setTimeout(function() {
-      event.target.style.borderColor = "";
-    }, 300);
-  }, false);
+    explainResume.style.display = "block";
+})
 
-  key4.addEventListener("mouseover", function( event ) {
-    
-    event.target.style.borderColor = "#8000ff";
-  
-    
-    setTimeout(function() {
-      event.target.style.borderColor = "";
-    }, 300);
-  }, false);
+key2.addEventListener('mouseleave', function(event) {
+    event.target.style.borderColor = '';
+    explainResume.style.display = "none";
+} )
 
-  key5.addEventListener("mouseover", function( event ) {
-    
+key3.addEventListener("mouseover", function( event ) {
     event.target.style.borderColor = "#8000ff";
-  
-    
-    setTimeout(function() {
-      event.target.style.borderColor = "";
-    }, 300);
-  }, false);
+    explainI.style.display = "block";
+})
+
+key3.addEventListener('mouseleave', function(event) {
+    event.target.style.borderColor = '';
+    explainI.style.display = "none";
+} )
+
+key4.addEventListener("mouseover", function( event ) {
+    event.target.style.borderColor = "#8000ff";
+    explainUs.style.display = "block";
+})
+
+key4.addEventListener('mouseleave', function(event) {
+    event.target.style.borderColor = '';
+    explainUs.style.display = "none";
+} )
+
+key5.addEventListener("mouseover", function( event ) {
+    event.target.style.borderColor = "#8000ff";
+    explainCat.style.display = 'block';
+})
+
+key5.addEventListener('mouseleave', function(event) {
+    event.target.style.borderColor = '';
+    explainCat.style.display = "none";
+} )
+
+
+
+//   key2.addEventListener("mouseover", function( event ) { 
+//     event.target.style.borderColor = "#8000ff";
+//     explainResume.style.display = "block";
+//     setTimeout(function() {
+//       event.target.style.borderColor = "";
+//       explainResume.style.display = "none";
+//     }, 300);
+//   }, false);
+
+//   key3.addEventListener("mouseover", function( event ) {
+//     event.target.style.borderColor = "#8000ff";
+//     explainI.style.display = "block";
+//     setTimeout(function() {
+//       event.target.style.borderColor = "";
+//       explainI.style.display = "none";
+//     }, 300);
+//   }, false);
+
+//   key4.addEventListener("mouseover", function( event ) {
+//     event.target.style.borderColor = "#8000ff";
+//     explainUs.style.display = "block";
+//     setTimeout(function() {
+//       event.target.style.borderColor = "";
+//       explainUs.style.display = "none";
+//     }, 300);
+//   }, false);
+
+//   key5.addEventListener("mouseover", function( event ) {  
+//     event.target.style.borderColor = "#8000ff";
+//     setTimeout(function() {
+//       event.target.style.borderColor = "";
+//     }, 300);
+//   }, false);
+
+// EXAMPLE OF TIMEOUT CODE
+// key1.addEventListener("mouseover", function( event ) {
+//     event.target.style.borderColor = "#8000ff";
+//     explainPortfolio.style.display = "block";
+//     setTimeout(function() {
+//       event.target.style.borderColor = "";
+//       explainPortfolio.style.display = "none";
+//     }, 300);
+//   }, false);
