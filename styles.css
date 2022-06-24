@@ -44,9 +44,18 @@ h1 {
     text-align: center;
 }
 
+
+
 .i-page {
     display: none;
     text-align: center;
+    width: 80%;
+}
+
+#bio-paragraph {
+    padding: 0px;
+    margin: 0px;
+    /* width: 75%; */
 }
 
 .us-page {
@@ -88,17 +97,29 @@ h1 {
 } 
 
 #image-container-bio {
-    height: 300px;
-    width: 400px;
-    /* margin: 0 auto; */
+    max-height: 300px;
+    max-width: 400px;
+    /* height: 100%;
+    width: 100%; */
+    margin: 0 auto;
 }
 
 img {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 100%; 
+    /* max-width: 380px;
+    min-width: 250px; */
     display: block;
     margin: 0 auto;
+
 }
+
+/* @media (max-width:750) {
+    img {
+        max-width: 380px;
+        max-height: 250px;
+    }
+} */
 
 #explain-portfolio {
     display: none;
