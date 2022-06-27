@@ -86,7 +86,7 @@ btn.addEventListener('click', function handleClick(event) {
 // BUTTON EVENT LISTENERS
 
 bottomHomeKeyOne.addEventListener('click', () => {
-    console.log("homeKey works")
+    // console.log("homeKey works")
     mainPage.style.display = "block";
     portfolioPage.style.display = "none";
     resumePage.style.display = "none";
@@ -95,7 +95,7 @@ bottomHomeKeyOne.addEventListener('click', () => {
 })
 
 bottomHomeKeyTwo.addEventListener('click', () => {
-    console.log("homeKey works")
+    // console.log("homeKey works")
     mainPage.style.display = "block";
     portfolioPage.style.display = "none";
     resumePage.style.display = "none";
@@ -104,7 +104,7 @@ bottomHomeKeyTwo.addEventListener('click', () => {
 })
 
 bottomHomeKeyThree.addEventListener('click', () => {
-    console.log("homeKey works")
+    // console.log("homeKey works")
     mainPage.style.display = "block";
     portfolioPage.style.display = "none";
     resumePage.style.display = "none";
@@ -113,7 +113,7 @@ bottomHomeKeyThree.addEventListener('click', () => {
 })
 
 bottomHomeKeyFour.addEventListener('click', () => {
-    console.log("homeKey works")
+    // console.log("homeKey works")
     mainPage.style.display = "block";
     portfolioPage.style.display = "none";
     resumePage.style.display = "none";
@@ -122,7 +122,7 @@ bottomHomeKeyFour.addEventListener('click', () => {
 })
 
 homeKey.addEventListener('click', () => {
-    console.log("homeKey works")
+    // console.log("homeKey works")
     mainPage.style.display = "block";
     portfolioPage.style.display = "none";
     resumePage.style.display = "none";
@@ -131,7 +131,7 @@ homeKey.addEventListener('click', () => {
 })
 
 key1.addEventListener('click', () => {
-    console.log("key1 works")
+    // console.log("key1 works")
     mainPage.style.display = "none";
     portfolioPage.style.display = "block";
     resumePage.style.display = "none";
@@ -140,7 +140,7 @@ key1.addEventListener('click', () => {
 })
 
 key2.addEventListener('click', () => {
-    console.log("key2 works")
+    // console.log("key2 works")
     mainPage.style.display = "none";
     portfolioPage.style.display = "none";
     resumePage.style.display = "block";
@@ -149,7 +149,7 @@ key2.addEventListener('click', () => {
 })
 
 key3.addEventListener('click', () => {
-    console.log("key3 works")
+    // console.log("key3 works")
     mainPage.style.display = "none";
     portfolioPage.style.display = "none";
     resumePage.style.display = "none";
@@ -158,7 +158,7 @@ key3.addEventListener('click', () => {
 })
 
 key4.addEventListener('click', () => {
-    console.log("key4 works")
+    // console.log("key4 works")
     mainPage.style.display = "none";
     portfolioPage.style.display = "none";
     resumePage.style.display = "none";
@@ -167,13 +167,13 @@ key4.addEventListener('click', () => {
 })
 
 key5.addEventListener('click', () => {
-    console.log("key5 works")
+    // console.log("key5 works")
     // Opens link to google search for "cat"
     window.open('https://www.google.com/search?q=cat&sxsrf=ALiCzsZrnpDQODBiu-y5uAONjny3YMItmA:1656038727296&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiymsyAicX4AhUrDEQIHQq8A2oQ_AUoAXoECAIQAw&biw=965&bih=802&dpr=2', '_blank');
 })
 
 phone1.addEventListener('click', () => {
-    console.log("key1 works")
+    // console.log("key1 works")
     mainPage.style.display = "none";
     portfolioPage.style.display = "block";
     resumePage.style.display = "none";
@@ -182,7 +182,7 @@ phone1.addEventListener('click', () => {
 })
 
 phone2.addEventListener('click', () => {
-    console.log("key2 works")
+    // console.log("key2 works")
     mainPage.style.display = "none";
     portfolioPage.style.display = "none";
     resumePage.style.display = "block";
@@ -191,7 +191,7 @@ phone2.addEventListener('click', () => {
 })
 
 phone3.addEventListener('click', () => {
-    console.log("key3 works")
+    // console.log("key3 works")
     mainPage.style.display = "none";
     portfolioPage.style.display = "none";
     resumePage.style.display = "none";
@@ -200,7 +200,7 @@ phone3.addEventListener('click', () => {
 })
 
 phone4.addEventListener('click', () => {
-    console.log("key4 works")
+    // console.log("key4 works")
     mainPage.style.display = "none";
     portfolioPage.style.display = "none";
     resumePage.style.display = "none";
@@ -209,7 +209,7 @@ phone4.addEventListener('click', () => {
 })
 
 phone5.addEventListener('click', () => {
-    console.log("key5 works")
+    // console.log("key5 works")
     // Opens link to google search for "cat"
     window.open('https://www.google.com/search?q=cat&sxsrf=ALiCzsZrnpDQODBiu-y5uAONjny3YMItmA:1656038727296&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiymsyAicX4AhUrDEQIHQq8A2oQ_AUoAXoECAIQAw&biw=965&bih=802&dpr=2', '_blank');
 })
