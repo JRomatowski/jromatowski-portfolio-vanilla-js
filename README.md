@@ -22,11 +22,11 @@ I used HTML, CSS, and JavaScript to create this website.
 - As a mid-level engineer, I want view a junior developer's project and read their code, so that I can evaluate their coding skills.
 - As a friend of the person who built this portfolio, I want to see what my friend has built so that I have an understanding of what they do as a developer and I can encourage them.
 
-## Wireframes
+## Wireframes 
 
-# ![](../extras/wirefram1.jpg)
-# ![](../extras/wirefram2.jpg)
-# ![](../extras/wirefram3.jpg)
+# ![](/extras/wireframe1.jpeg)
+# ![](/extras/wireframe2.jpeg)
+# ![](/extras/wireframe3.jpeg)
 
 ## Hurdles I Overcame
 
