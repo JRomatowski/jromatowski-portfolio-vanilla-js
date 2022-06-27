@@ -24,9 +24,9 @@ I used HTML, CSS, and JavaScript to create this website.
 
 ## Wireframes 
 
-# ![](/extras/wireframe1.jpeg)
-# ![](/extras/wireframe2.jpeg)
-# ![](/extras/wireframe3.jpeg)
+# ![](/wireframe1.jpeg)
+# ![](/wireframe2.jpeg)
+# ![](/wireframe3.jpeg)
 
 ## Hurdles I Overcame
 
