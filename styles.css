@@ -1,0 +1,202 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+}
+
+.flute {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.keys {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border:10px solid red;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px
+}
+
+.mouse-over-text {
+    color: #8000ff;
+    text-align: center;
+    display: none;
+}
+
+.portfolio-page {
+    display: none;
+    text-align: center;
+}
+
+.resume-page {
+    display: none;
+    text-align: center;
+}
+
+
+
+.i-page {
+    display: none;
+    text-align: center;
+    width: 80%;
+    max-height: 300px;
+    max-width: 400px;
+}
+
+#bio-paragraph {
+    /* padding: 0px;
+    margin: 0px; */
+    max-height: 300px;
+    max-width: 400px;
+    text-align: center;
+    /* width: 75%; */
+}
+
+.us-page {
+    display: none;
+    text-align: center;
+}
+
+#phone-navigation {
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+    padding-top: 19px;
+    }
+    
+/* @media screen and (max-width: 1024px) {
+    #phone-navigation {
+        display: block;
+    }
+} */
+
+#phone-portfolio {
+    color: black;
+} 
+
+#phone-resume {
+    color: black;
+} 
+
+#phone-info {
+    color: black;
+} 
+
+#phone-us {
+    color: black;
+} 
+
+#phone-cat {
+    color: black;
+} 
+
+#image-container-bio {
+    max-height: 300px;
+    max-width: 400px;
+    /* height: 100%;
+    width: 100%; */
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%; 
+    /* max-width: 380px;
+    min-width: 250px; */
+    display: block;
+    margin: 0 auto;
+
+}
+
+/* @media (max-width:750) {
+    img {
+        max-width: 380px;
+        max-height: 250px;
+    }
+} */
+
+#return-home1 {
+    /* color: #8000ff; */
+    text-decoration-line: underline;
+    font-size: x-large;
+}
+
+#return-home2 {
+    /* color: #8000ff; */
+    text-decoration-line: underline;
+    font-size: x-large;
+}
+
+
+#return-home3 {
+    /* color: #8000ff; */
+    text-decoration-line: underline;
+    font-size: x-large;
+}
+
+
+#return-home4 {
+    /* color: #8000ff; */
+    text-decoration-line: underline;
+    font-size: x-large;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px 2px;
+    font-size: larger;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+
+  }
+
+
+#explain-portfolio {
+    display: none;
+    text-align: center;
+    color: #8000ff;
+}
+
+#explain-resume {
+    display: none;
+    text-align: center;
+    color: #8000ff;
+}
+
+#explain-i {
+    display: none;
+    text-align: center;
+    color: #8000ff;
+}
+
+#explain-us {
+    display: none;
+    text-align: center;
+    color: #8000ff;
+}
+
+#explain-cat {
+    display: none;
+    text-align: center;
+    color: #8000ff;
+}
+

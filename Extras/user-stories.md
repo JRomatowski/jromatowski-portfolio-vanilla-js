@@ -1,0 +1,3 @@
+As a non-technical HR manager, I want to quickly see the skills and experience of a candidate, so that I can evaluate whether the candidate meets the requirements for an open position at my company.
+As a mid-level engineer, I want view a junior developer's project and read their code, so that I can evaluate their coding skills.
+As a friend of the person who built this portfolio, I want to see what my friend has built so that I have an understanding of what they do as a developer and I can encourage them.
