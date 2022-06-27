@@ -74,7 +74,7 @@ const explainCat = document.querySelector('#explain-cat')
 // FORM
 
 const btn = document.getElementById('btn');
-const form = document.getElementById('form');
+const form = document.getElementById('contact-form');
 
 btn.addEventListener('click', function handleClick(event) {
     event.preventDefault();

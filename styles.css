@@ -130,24 +130,44 @@ img {
 #return-home1 {
     /* color: #8000ff; */
     text-decoration-line: underline;
+    font-size: x-large;
 }
 
 #return-home2 {
     /* color: #8000ff; */
     text-decoration-line: underline;
+    font-size: x-large;
 }
 
 
 #return-home3 {
     /* color: #8000ff; */
     text-decoration-line: underline;
+    font-size: x-large;
 }
 
 
 #return-home4 {
     /* color: #8000ff; */
     text-decoration-line: underline;
+    font-size: x-large;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px 2px;
+    font-size: larger;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+
+  }
 
 
 #explain-portfolio {

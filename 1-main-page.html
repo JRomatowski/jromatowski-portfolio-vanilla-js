@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script defer src="script.js"></script>
     <title>Joshua Romatowski, portfolio</title>
 </head>
@@ -46,11 +47,33 @@
         <div class="portfolio-page">
             <h2>Portfolio Here!</h2>
             <p>Filler Text</p>
+            <!-- <div id="phone-navigation">
+                <span id="phone-portfolio" style="cursor: default">Portfolio</span>
+                <span>|</span>
+                <span id ="phone-resume" style="cursor: default">Resume</span>
+                <span>|</span>
+                <span id="phone-info" style="cursor: default">Info</span>
+                <span>|</span>
+                <span id="phone-us" style="cursor: default">Us</span>
+                <span>|</span>
+                <span id="phone-cat" style="cursor: default">Cat</span>
+            </div> -->
             <p id="return-home1" style="cursor: default">return</p>
         </div>
         <div class="resume-page">
             <h2>Resume Here!</h2>
             <p>Filler Text</p>
+            <!-- <div id="phone-navigation">
+                <span id="phone-portfolio" style="cursor: default">Portfolio</span>
+                <span>|</span>
+                <span id ="phone-resume" style="cursor: default">Resume</span>
+                <span>|</span>
+                <span id="phone-info" style="cursor: default">Info</span>
+                <span>|</span>
+                <span id="phone-us" style="cursor: default">Us</span>
+                <span>|</span>
+                <span id="phone-cat" style="cursor: default">Cat</span>
+            </div> -->
             <p id="return-home2" style="cursor: default">return</p>
         </div>
         <div class="i-page">
@@ -59,19 +82,36 @@
             </div>
             <!-- <h2>Bio Here!</h2> -->
             <p id="bio-paragraph">
-            ​Hi!  My name is Josh and I am a flutist turned software engineer residing in Seattle!   When I'm not staring at my flute case or trying to crack the perfect grind setting on my Baratza Encore Burr Coffee Grinder, I am instead cultivating a very lustrious, tantalizing, sensuous, temptuous relationship with CSS!  I currently perform with Symphony Tacoma and am teaching flute lessons to students of all ages.<br>
+            ​Hi!  My name is Josh and I am a flutist turned software engineer residing in Seattle!   When I'm not staring at my flute case or trying to crack the perfect setting for my coffee grinder, I am instead cultivating a very lustrious, tantalizing, sensuous, temptuous relationship with CSS!  I currently perform with Symphony Tacoma and am teaching flute lessons to students of all ages.<br>
             <br>        
             P.S. The perfect grind setting is 20.
         
         </p>
+        <!-- <div id="phone-navigation">
+            <span id="phone-portfolio" style="cursor: default">Portfolio</span>
+            <span>|</span>
+            <span id ="phone-resume" style="cursor: default">Resume</span>
+            <span>|</span>
+            <span id="phone-info" style="cursor: default">Info</span>
+            <span>|</span>
+            <span id="phone-us" style="cursor: default">Us</span>
+            <span>|</span>
+            <span id="phone-cat" style="cursor: default">Cat</span>
+        </div> -->
             <p id="return-home3" style="cursor: default">return</p>
         </div>
         <div class="us-page">
-            <h2>Social Media Here!</h2>
+            <h2></h2>
             <!-- <form onsubmit="sendEmail(); reset(); return false;"> -->
-            <form id="form">
-                <h3>GET IN TOUCH</h3>
-                <br><br>
+            
+
+            <div id="linkedin">
+                <h2>LinkedIn</h2>
+                <a href="https://www.linkedin.com/in/joshuaromatowski/" class="fa fa-linkedin"></a>
+
+            </div>
+            <form id="contact-form">
+                <h2>Email me!</h2>
                 <input type="text" placeholder="Name" id="name" />
                 <br><br>
                 <input type="email" placeholder="Email" id="email" />
@@ -80,33 +120,28 @@
                 <br><br>
                 <button id="btn" type="button">Submit</button>
             </form>
-            <p>Filler Text</p>
+            <!-- <div id="phone-navigation">
+                <span id="phone-portfolio" style="cursor: default">Portfolio</span>
+                <span>|</span>
+                <span id ="phone-resume" style="cursor: default">Resume</span>
+                <span>|</span>
+                <span id="phone-info" style="cursor: default">Info</span>
+                <span>|</span>
+                <span id="phone-us" style="cursor: default">Us</span>
+                <span>|</span>
+                <span id="phone-cat" style="cursor: default">Cat</span>
+            </div> -->
             <p id="return-home4" style="cursor: default">return</p>
         </div>
+        
+
     </main>
 
-
-    <!-- <scrip src="https://smtpjs.com/v3/smtp.js"></scrip>
-    <script>
-        function sendEmail() {
-            Email.send({
-                Host : "smtp.gmail.com",
-                Username : "joshuaromatowski@gmail.com",
-                Password : "password",
-                To : 'joshuaromatowski@gmail.com',
-                From : document.getElementById("email").value,
-                Subject : "New Contact Form Submission",
-                Body : "Name: " + document.getElementById('name').value
-                    + "<br> Email: " + document.getElementById('email').value
-                    + "<br> Message: " + document.getElementById('message').value
-            }).then(
-                message => alert("Message Sent")
-);
-        }
-    </script> -->
 </body>
-<!-- <footer>
-    <p>Social Media Links</p>
-</footer> -->
+
+<footer>
+
+
+</footer>
 </html>
 
