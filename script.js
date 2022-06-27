@@ -1,22 +1,4 @@
 
-// C/P'd this from Isabel Cortes's Website
-
-//   $('.ui-button').on('click', function(){
-//     $('body').css('background-color', 'white')
-//   })
-
-//   $('#box2').on('click', function(){
-//     $('#main-page').fadeOut(300, function(){$('#projects-info').fadeIn();});
-//   });
-//   $('#cv-info, #x').on('click', function(){
-//     $('#cv-info').fadeOut(300, function(){$('#main-page').fadeIn();});
-//   });
-
-//   $('#box4').on('click', function(){
-//     $('#main-page').fadeOut(300, function(){$('#about-info').fadeIn();});
-//   });
-//   $('#box5').on('click', function(){
-//     $('#main-page').fadeOut(300, function(){$('#cv-info').fadeIn();})
 
 // BUTTON VARIABLES
 
@@ -71,7 +53,7 @@ const explainCat = document.querySelector('#explain-cat')
 // console.log(explainI)
 // console.log(explainUs)
 
-// FORM
+// CONTACT FORM
 
 const btn = document.getElementById('btn');
 const form = document.getElementById('contact-form');
@@ -79,9 +61,7 @@ const form = document.getElementById('contact-form');
 btn.addEventListener('click', function handleClick(event) {
     event.preventDefault();
     form.reset();
-  });
-
-
+});
 
 // BUTTON EVENT LISTENERS
 
@@ -218,7 +198,6 @@ phone5.addEventListener('click', () => {
 
 key1.addEventListener("mouseover", function( event ) {
     event.target.style.borderColor = "#8000ff";
-    // explainPortfolio.style.display = "block";
 })
 
 key1.addEventListener('mouseleave', function(event) {
@@ -228,7 +207,6 @@ key1.addEventListener('mouseleave', function(event) {
 
 key2.addEventListener("mouseover", function( event ) {
     event.target.style.borderColor = "#8000ff";
-    // explainResume.style.display = "block";
 })
 
 key2.addEventListener('mouseleave', function(event) {
@@ -238,7 +216,6 @@ key2.addEventListener('mouseleave', function(event) {
 
 key3.addEventListener("mouseover", function( event ) {
     event.target.style.borderColor = "#8000ff";
-    // explainI.style.display = "block";
 })
 
 key3.addEventListener('mouseleave', function(event) {
@@ -248,7 +225,6 @@ key3.addEventListener('mouseleave', function(event) {
 
 key4.addEventListener("mouseover", function( event ) {
     event.target.style.borderColor = "#8000ff";
-    // explainUs.style.display = "block";
 })
 
 key4.addEventListener('mouseleave', function(event) {
@@ -258,104 +234,12 @@ key4.addEventListener('mouseleave', function(event) {
 
 key5.addEventListener("mouseover", function( event ) {
     event.target.style.borderColor = "#8000ff";
-    // explainCat.style.display = 'block';
 })
 
 key5.addEventListener('mouseleave', function(event) {
     event.target.style.borderColor = '';
     explainCat.style.display = "none";
 } )
-
-// NAVIGATION AT BOTTOM
-//
-//
-//
-
-// phone1.addEventListener("mouseover", function( event ) {
-//     event.target.style.Color = "red";
-//     // explainPortfolio.style.display = "block";
-// })
-
-// phone1.addEventListener('mouseleave', function(event) {
-//     event.target.style.Color = '';
-//     explainPortfolio.style.display = "none";
-// } )
-
-// phone2.addEventListener("mouseover", function( event ) {
-//     event.target.style.borderColor = "#8000ff";
-//     // explainResume.style.display = "block";
-// })
-
-// phone2.addEventListener('mouseleave', function(event) {
-//     event.target.style.borderColor = '';
-//     explainResume.style.display = "none";
-// } )
-
-// phone3.addEventListener("mouseover", function( event ) {
-//     event.target.style.borderColor = "#8000ff";
-//     // explainI.style.display = "block";
-// })
-
-// phone3.addEventListener('mouseleave', function(event) {
-//     event.target.style.borderColor = '';
-//     explainI.style.display = "none";
-// } )
-
-// phone4.addEventListener("mouseover", function( event ) {
-//     event.target.style.borderColor = "#8000ff";
-//     // explainUs.style.display = "block";
-// })
-
-// phone4.addEventListener('mouseleave', function(event) {
-//     event.target.style.borderColor = '';
-//     explainUs.style.display = "none";
-// } )
-
-// phone5.addEventListener("mouseover", function( event ) {
-//     event.target.style.borderColor = "#8000ff";
-//     // explainCat.style.display = 'block';
-// })
-
-// phone5.addEventListener('mouseleave', function(event) {
-//     event.target.style.borderColor = '';
-//     explainCat.style.display = "none";
-// } )
-
-
-
-//   key2.addEventListener("mouseover", function( event ) { 
-//     event.target.style.borderColor = "#8000ff";
-//     explainResume.style.display = "block";
-//     setTimeout(function() {
-//       event.target.style.borderColor = "";
-//       explainResume.style.display = "none";
-//     }, 300);
-//   }, false);
-
-//   key3.addEventListener("mouseover", function( event ) {
-//     event.target.style.borderColor = "#8000ff";
-//     explainI.style.display = "block";
-//     setTimeout(function() {
-//       event.target.style.borderColor = "";
-//       explainI.style.display = "none";
-//     }, 300);
-//   }, false);
-
-//   key4.addEventListener("mouseover", function( event ) {
-//     event.target.style.borderColor = "#8000ff";
-//     explainUs.style.display = "block";
-//     setTimeout(function() {
-//       event.target.style.borderColor = "";
-//       explainUs.style.display = "none";
-//     }, 300);
-//   }, false);
-
-//   key5.addEventListener("mouseover", function( event ) {  
-//     event.target.style.borderColor = "#8000ff";
-//     setTimeout(function() {
-//       event.target.style.borderColor = "";
-//     }, 300);
-//   }, false);
 
 // EXAMPLE OF TIMEOUT CODE
 // key1.addEventListener("mouseover", function( event ) {
@@ -366,3 +250,23 @@ key5.addEventListener('mouseleave', function(event) {
 //       explainPortfolio.style.display = "none";
 //     }, 300);
 //   }, false);
+
+
+// C/P'd this from Isabel Cortes's Website
+
+//   $('.ui-button').on('click', function(){
+//     $('body').css('background-color', 'white')
+//   })
+
+//   $('#box2').on('click', function(){
+//     $('#main-page').fadeOut(300, function(){$('#projects-info').fadeIn();});
+//   });
+//   $('#cv-info, #x').on('click', function(){
+//     $('#cv-info').fadeOut(300, function(){$('#main-page').fadeIn();});
+//   });
+
+//   $('#box4').on('click', function(){
+//     $('#main-page').fadeOut(300, function(){$('#about-info').fadeIn();});
+//   });
+//   $('#box5').on('click', function(){
+//     $('#main-page').fadeOut(300, function(){$('#cv-info').fadeIn();})

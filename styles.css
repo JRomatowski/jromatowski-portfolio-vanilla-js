@@ -169,6 +169,10 @@ img {
 
 }
 
+li {
+    text-align: left;
+}
+
 
 #explain-portfolio {
     display: none;
