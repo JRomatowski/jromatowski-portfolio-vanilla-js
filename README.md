@@ -24,9 +24,9 @@ I used HTML, CSS, and JavaScript to create this website.
 
 ## Wireframes
 
-# ![](/extras/wirefram1.jpg)
-# ![](/extras/wirefram2.jpg)
-# ![](/extras/wirefram3.jpg)
+# ![](../extras/wirefram1.jpg)
+# ![](../extras/wirefram2.jpg)
+# ![](../extras/wirefram3.jpg)
 
 ## Hurdles I Overcame
 
@@ -37,9 +37,8 @@ I used HTML, CSS, and JavaScript to create this website.
 
 ## Descriptions of Unsolved Problems 
 
-- My Contact Form doesn't work.  I followed two tutorials online unsuccesfully.  I need to make sure that stored inputs are putting saved as an object and then stored in an array.
+- My Contact Form doesn't work.  I followed two tutorials online unsuccessfully.  I need to make sure that stored inputs are getting saved as an object and then stored into an array.  
 
-- My preference would be to have the "Cat" button bring up a cat gallery on the page, keeping people on the page rather than linking away from it.  This seems complicated so I haven't started to work on it.
+- My preference would be to have the "Cat" button bring up a cat gallery on the page, keeping people on the page rather than linking away from the page.  This seems complicated so I haven't started working on it.
 
-- 
 
