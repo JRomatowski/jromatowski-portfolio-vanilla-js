@@ -219,3 +219,10 @@ article {
 .portfolio-page {
     font-size: x-large;
 }
+
+#telemann-cd2-container {
+    max-height: 300px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}

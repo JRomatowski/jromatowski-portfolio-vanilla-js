@@ -26,6 +26,8 @@ const resumePage = document.querySelector('.resume-page')
 const iPage = document.querySelector('.i-page')
 const usPage = document.querySelector('.us-page')
 
+const portfolioTelemannCd2 = document.querySelector('#telemann-cd2-container')
+
 const resumeTeachingArticle= document.querySelector('#resume-teaching-article')
 const resumePerformingArticle = document.querySelector('#resume-performance-article')
 const resumeAdminArticle = document.querySelector('#resume-admin-experience')
@@ -69,7 +71,7 @@ btn.addEventListener('click', function handleClick(event) {
     form.reset();
 });
 
-// BUTTON EVENT LISTENERS
+// CLICK EVENT LISTENERS
 
 bottomHomeKeyOne.addEventListener('click', () => {
     // console.log("homeKey works")
@@ -200,6 +202,12 @@ phone5.addEventListener('click', () => {
     window.open('https://www.google.com/search?q=cat&sxsrf=ALiCzsZrnpDQODBiu-y5uAONjny3YMItmA:1656038727296&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiymsyAicX4AhUrDEQIHQq8A2oQ_AUoAXoECAIQAw&biw=965&bih=802&dpr=2', '_blank');
 })
 
+portfolioTelemannCd2.addEventListener('click', () => {
+    // console.log("cdbutton works")
+    // Opens link to spotify playlist of CD
+    window.open('https://open.spotify.com/album/6o8D7qRTpFKOWL1yADlhtY?si=csmR6wloQHG4TsbJmNrHsQ');
+})
+
 // MOUSEOVER EVENT LISTENERS
 
 key1.addEventListener("mouseover", function( event ) {
@@ -245,7 +253,7 @@ key5.addEventListener("mouseover", function( event ) {
 key5.addEventListener('mouseleave', function(event) {
     event.target.style.borderColor = '';
     explainCat.style.display = "none";
-} )
+})
 
 resumeTeachingArticle.addEventListener("mouseover", function( event ) {
     event.target.style.borderColor = "#8000ff";
