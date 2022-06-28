@@ -26,6 +26,11 @@ const resumePage = document.querySelector('.resume-page')
 const iPage = document.querySelector('.i-page')
 const usPage = document.querySelector('.us-page')
 
+const resumeTeachingArticle= document.querySelector('#resume-teaching-article')
+const resumePerformingArticle = document.querySelector('#resume-performance-article')
+const resumeAdminArticle = document.querySelector('#resume-admin-experience')
+const resumeEducationArticle = document.querySelector('#resume-education-article')
+
 //  LEFTOVER IDEA - AFRAID TO DELETE YET
 const explainPortfolio = document.querySelector('#explain-portfolio')
 const explainResume = document.querySelector('#explain-resume')
@@ -52,6 +57,7 @@ const explainCat = document.querySelector('#explain-cat')
 // console.log(explainResume)
 // console.log(explainI)
 // console.log(explainUs)
+// console.log(resumeTeachingArticle)
 
 // CONTACT FORM
 
@@ -237,6 +243,42 @@ key5.addEventListener("mouseover", function( event ) {
 })
 
 key5.addEventListener('mouseleave', function(event) {
+    event.target.style.borderColor = '';
+    explainCat.style.display = "none";
+} )
+
+resumeTeachingArticle.addEventListener("mouseover", function( event ) {
+    event.target.style.borderColor = "#8000ff";
+})
+
+resumeTeachingArticle.addEventListener('mouseleave', function(event) {
+    event.target.style.borderColor = '';
+    explainCat.style.display = "none";
+} )
+
+resumePerformingArticle.addEventListener("mouseover", function( event ) {
+    event.target.style.borderColor = "#8000ff";
+})
+
+resumePerformingArticle.addEventListener('mouseleave', function(event) {
+    event.target.style.borderColor = '';
+    explainCat.style.display = "none";
+} )
+
+resumeAdminArticle.addEventListener("mouseover", function( event ) {
+    event.target.style.borderColor = "#8000ff";
+})
+
+resumeAdminArticle.addEventListener('mouseleave', function(event) {
+    event.target.style.borderColor = '';
+    explainCat.style.display = "none";
+} )
+
+resumeEducationArticle.addEventListener("mouseover", function( event ) {
+    event.target.style.borderColor = "#8000ff";
+})
+
+resumeEducationArticle.addEventListener('mouseleave', function(event) {
     event.target.style.borderColor = '';
     explainCat.style.display = "none";
 } )
