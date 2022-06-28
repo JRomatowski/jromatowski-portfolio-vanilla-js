@@ -43,6 +43,8 @@ h1 {
     display: none;
     text-align: center;
     width: 80%;
+    max-height: 300px;
+    max-width: 400px;
 }
 
 
@@ -211,5 +213,9 @@ ul {
 }
 
 article {
-    border: 10px dotted red;
+    border: 10px double red;
+}
+
+.portfolio-page {
+    font-size: x-large;
 }
