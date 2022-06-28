@@ -42,6 +42,7 @@ h1 {
 .resume-page {
     display: none;
     text-align: center;
+    width: 80%;
 }
 
 
@@ -169,6 +170,15 @@ img {
 
 }
 
+li {
+    text-align: center;
+}
+
+ul {
+    padding: 0px 50px;
+    list-style: none;
+}
+
 
 #explain-portfolio {
     display: none;
@@ -200,3 +210,6 @@ img {
     color: #8000ff;
 }
 
+article {
+    border: 10px dotted red;
+}
