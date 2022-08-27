@@ -18,7 +18,7 @@ I used HTML, CSS, and JavaScript to create this website.
 
 ## Link to Website
 
-https://main--fascinating-cassata-474154.netlify.app/
+https://jromatowski-portfolio.netlify.app/
 
 ## User Stories
 
