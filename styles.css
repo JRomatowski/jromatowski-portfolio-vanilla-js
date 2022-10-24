@@ -4,6 +4,12 @@ main {
     flex-wrap: wrap;
 }
 
+/* section {
+    border: 10px dashed red;
+    margin: 0px 300px;
+    max-width: 400px;
+} */
+
 h1 {
     text-align: center;
 }
@@ -76,6 +82,7 @@ h1 {
     font-weight: bold;
     font-size: 21px;
     padding-top: 19px;
+    padding-bottom: 20px;
     }
     
 /* @media screen and (max-width: 1024px) {
